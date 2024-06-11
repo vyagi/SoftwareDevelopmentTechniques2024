@@ -7,3 +7,4 @@ var detector = new WeatherConditionsDetector(new InternetThermometerAdapter(new 
 
 Console.WriteLine(detector.Detect());
 
+//FAVOUR COMPOSITION OVER INHERITANCE

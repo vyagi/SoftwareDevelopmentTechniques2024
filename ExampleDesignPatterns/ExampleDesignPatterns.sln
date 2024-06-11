@@ -7,6 +7,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\We
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{6857E73F-FB88-497D-873D-DDDF6A1C2112}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatern.Tests", "DecoratorPatern.Tests\DecoratorPatern.Tests.csproj", "{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +25,14 @@ Global
 		{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6857E73F-FB88-497D-873D-DDDF6A1C2112}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6857E73F-FB88-497D-873D-DDDF6A1C2112}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6857E73F-FB88-497D-873D-DDDF6A1C2112}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6857E73F-FB88-497D-873D-DDDF6A1C2112}.Release|Any CPU.Build.0 = Release|Any CPU
+		{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
