@@ -21,6 +21,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternTests", "Si
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{96758636-BEAF-45E1-BC37-2A2770EE53EE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MarineApplication", "MarineApplication\MarineApplication.csproj", "{25E43079-A46D-41AA-96D1-D27134DE5583}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FluentBuilderPattern", "FluentBuilderPattern\FluentBuilderPattern.csproj", "{D42C0BBB-A36F-48DF-8440-7C6486B0ABEB}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -63,6 +67,14 @@ Global
 		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{25E43079-A46D-41AA-96D1-D27134DE5583}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{25E43079-A46D-41AA-96D1-D27134DE5583}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{25E43079-A46D-41AA-96D1-D27134DE5583}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{25E43079-A46D-41AA-96D1-D27134DE5583}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D42C0BBB-A36F-48DF-8440-7C6486B0ABEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D42C0BBB-A36F-48DF-8440-7C6486B0ABEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D42C0BBB-A36F-48DF-8440-7C6486B0ABEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D42C0BBB-A36F-48DF-8440-7C6486B0ABEB}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
