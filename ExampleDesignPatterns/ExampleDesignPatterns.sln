@@ -3,17 +3,23 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.10.34928.147
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{697EA7AA-DBE3-4315-8CCC-82ACB3B837A2}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WeatherApp", "WeatherApp\WeatherApp.csproj", "{697EA7AA-DBE3-4315-8CCC-82ACB3B837A2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AdapterPattern", "AdapterPattern\AdapterPattern.csproj", "{2FAD1FA2-CBCB-42E9-99BD-BE19693DC777}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{6857E73F-FB88-497D-873D-DDDF6A1C2112}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPattern", "DecoratorPattern\DecoratorPattern.csproj", "{6857E73F-FB88-497D-873D-DDDF6A1C2112}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DecoratorPatern.Tests", "DecoratorPatern.Tests\DecoratorPatern.Tests.csproj", "{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "DecoratorPatern.Tests", "DecoratorPatern.Tests\DecoratorPatern.Tests.csproj", "{881A5D06-398B-41D8-B1FD-5BD0AFBA9EB3}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{10804EA4-E2AA-494B-95DF-57C0C1811933}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPattern", "FactoryPattern\FactoryPattern.csproj", "{10804EA4-E2AA-494B-95DF-57C0C1811933}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{9397C002-4C84-42D2-8935-1ABAED76691E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FactoryPatternTests", "FactoryPatternTests\FactoryPatternTests.csproj", "{9397C002-4C84-42D2-8935-1ABAED76691E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPattern", "SingletonPattern\SingletonPattern.csproj", "{F55B5A3B-0E06-4497-B06A-45BDB4493697}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SingletonPatternTests", "SingletonPatternTests\SingletonPatternTests.csproj", "{0BE52872-E63D-4745-8EF1-4EFE73AB57A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApplication1", "WebApplication1\WebApplication1.csproj", "{96758636-BEAF-45E1-BC37-2A2770EE53EE}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -45,6 +51,18 @@ Global
 		{9397C002-4C84-42D2-8935-1ABAED76691E}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{9397C002-4C84-42D2-8935-1ABAED76691E}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{9397C002-4C84-42D2-8935-1ABAED76691E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F55B5A3B-0E06-4497-B06A-45BDB4493697}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F55B5A3B-0E06-4497-B06A-45BDB4493697}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F55B5A3B-0E06-4497-B06A-45BDB4493697}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F55B5A3B-0E06-4497-B06A-45BDB4493697}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0BE52872-E63D-4745-8EF1-4EFE73AB57A5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0BE52872-E63D-4745-8EF1-4EFE73AB57A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0BE52872-E63D-4745-8EF1-4EFE73AB57A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0BE52872-E63D-4745-8EF1-4EFE73AB57A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{96758636-BEAF-45E1-BC37-2A2770EE53EE}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
